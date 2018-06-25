@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MohawkCollegeActivity">
+
+    <TextView
+        android:id="@+id/lbMohawk"
+        style="@style/heading_for_activities"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="62dp"
+        android:text="@string/mohak_heading" />
+
+    <ListView
+        android:id="@+id/MohwakListView"
+        android:layout_width="wrap_content"
+        android:layout_height="428dp"
+        android:layout_below="@id/lbMohawk" />
+
+    <Button
+        android:id="@+id/btnViewAllMohawkAddress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/MohwakListView"
+        android:text="@string/_address" />
+</RelativeLayout>

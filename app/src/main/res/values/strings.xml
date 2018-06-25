@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Syednasirgohary_COMP304_Assignment5</string>
+    <string name="main_heading">List of Ontario Colleges</string>
+    <!--String for Centennial College Activity-->
+    <string name="centennial_heading">Centennial College Compuses Locations</string>
+    <string name="seneca_heading">Seneca College Locations</string>
+    <string name="goerge_heading">George Brown College Locations\n</string>
+    <string name="mohak_heading">Mowhak College Locations</string>
+    <string name="durham_heading">Durhan College Locations</string>
+
+    <string-array name="college_names">
+        <item>\nCentennial College\n\n</item>
+        <item>Seneca College\n\n</item>
+        <item>George Brown College\n\n</item>
+        <item>Mohawk College\n\n</item>
+        <item>Durham College\n\n</item>
+    </string-array>
+    <!--end StringArray of Centennial College names-->
+
+    <!--String Array for Centennial College Locations-->
+    <string-array name="centennial_college">
+        <item>Story Arts Centre\n\t951 Carlaw Ave, Toronto, ON M4K 3M2\n</item>
+        <item>Ashtonbee Compus \n\t75 Ashtonbee Rd B2-11 ​75, Scarborough,\n\tON M1L 4C9\n</item>
+        <item>Progress Compus \n\t941 Progress Ave, Scarborough, ON M1G 3T8\n</item>
+        <item>Pickering Compus \n\t1340 Pickering Pkwy, Pickering, ON L1V</item>
+        <item>Morning Side Compus \n\t755 Morningside Ave, Scarborough,\n\tON M1C 4Z4</item>
+    </string-array>
+    <!--End of String Array for Centennial College addresses-->
+
+    <!--String Array for Seneca College Addresses-->
+    <string-array name="seneca_college">
+        <item>Newmarket Compus\n\t16655 Yonge St., Unit 3 Newmarket, Ontario \n\t L3X 1V6\n</item>
+        <item>Newnham Compus\n\t1750 Finch Ave. East Toronto, Ontario \n\tM2J 2X5\n</item>
+        <item>Markham Compus\n\t8 The Seneca Way(Highway 7 and Highway\n\t404) Markham, Ontario L3R 5Y1\n</item>
+        <item>King Compus\n\t13990 Dufferin St. King City, Ontario L7B 1B3\n</item>
+        <item>Jane Campus\n\t21 Beverly Hills Drive Toronto, Ontario M3L \n\t1A2\n</item>
+        <item>Seneca@York Compus\n\t70 The Pond Road Toronto, Ontario M3J 3M6</item>
+    </string-array>
+    <!--End of String Array for Seneca College Addresses-->
+
+    <!--String Array for George Brown College address-->
+    <string-array name="george_brown">
+        <item>\nCasa Loma Campus\n\t160 Kendal Ave, Toronto, ON M5R 1M3\n</item>
+        <item>St. James Campus\n\t200 King St E, Toronto, ON M5A 3W8\n</item>
+        <item>Waterfront Campus\n\t51 Dockside Dr, Toronto, ON M5A 1B6</item>
+    </string-array>
+    <!--End of String Array for George Brown College Locations-->
+
+    <!--Mohak College String Array-->
+    <string-array name="mohak_college">
+        <item>Fennell Compus\n\t135 Fennell Avenue West Hamilton Ontario \n\tL9C 0E5\n</item>
+        <item>Ogwehoweh Skills and Trades Training Centre Compus\n\t16 Sunrise Court Ohsweken Ontario N0A1M0\n</item>
+        <item>Six Nations Polytechnic - Ohsweken Compus\n\t2160 Fourth Line Ohsweken Ontario\n\t N0A 1M0\n</item>
+        <item>Stoney Creek Campus for Skilled Trades Compus\n\t481 Barton Street Stoney Creek\n\t Ontario L8E 2L7\n</item>
+
+    </string-array>
+    <!--end of Mohak College String Array-->
+
+    <string-array name="durham_college">
+        <item>Oshawa Compus\n\t2000 Simcoe Street North Oshawa, Ontario \n\tL1H 7K4\n </item>
+        <item>Whitby Campus\n\t1610 Champlian Avenue ,Whitby, Ontario\n\t L1N 6A7 \n</item>
+        <item>Centre for Food\n\t1604 Champlian Avenue ,Whitby, Ontario\n\t L1N 6A7\n </item>
+
+    </string-array>
+    <string name="title_activity_seneca_map">Map</string>
+    <string name="title_activity_mohawk_map">Map</string>
+    <string name="title_activity_durham_map">Map</string>
+    <string name="title_activity_gbrown_map">Map</string>
+    <string name="title_activity_centennial_map">Map</string>
+    <string name="title_activity_gbrow_map">Map</string>
+    <string name="zoomin">Zoom In</string>
+    <string name="zoomout">Zoom Out</string>
+    <string name="change">Switch Map</string>
+    <string name="_address">View Addresses in Map</string>
+</resources>

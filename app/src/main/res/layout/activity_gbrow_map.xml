@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:andoir="http://schemas.android.com/apk/res/android"
+    andoir:layout_width="match_parent"
+    andoir:layout_height="match_parent"
+    andoir:orientation="vertical"
+    >
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:map="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/GbrownMap"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="476dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:context=".GbrowMapActivity" />
+
+    <Button
+        andoir:id="@+id/btnGType"
+        andoir:layout_width="111dp"
+        andoir:layout_height="38dp"
+        andoir:layout_alignParentBottom="true"
+        andoir:layout_alignParentStart="true"
+        andoir:text="@string/change" />
+
+    <Button
+        andoir:id="@+id/btnGZoomIn"
+        andoir:layout_width="111dp"
+        andoir:layout_height="38dp"
+        andoir:onClick="onZoomView"
+        andoir:layout_alignParentBottom="true"
+        andoir:layout_centerHorizontal="true"
+        andoir:text="@string/zoomin" />
+
+    <Button
+        andoir:id="@+id/btnGZoomOut"
+        andoir:layout_width="111dp"
+        andoir:layout_height="38dp"
+        andoir:layout_alignParentBottom="true"
+        andoir:layout_alignParentEnd="true"
+        andoir:layout_marginEnd="17dp"
+        andoir:onClick="onZoomView"
+        andoir:text="@string/zoomout" />
+</RelativeLayout>
